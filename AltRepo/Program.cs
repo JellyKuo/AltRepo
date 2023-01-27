@@ -1,6 +1,7 @@
 using AltRepo.Services;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.Configuration.AddJsonFile("Config/appsettings.json", false, true);
 builder.WebHost.UseSentry();
 // Add services to the container.
 
