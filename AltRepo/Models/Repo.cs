@@ -101,8 +101,8 @@ namespace AltRepo.Models
         [JsonProperty("identifier")]
         public string? Identifier { get; set; }
 
-        [JsonProperty("sourceURL")]
-        public string? SourceURL { get; set; }
+        //[JsonProperty("sourceURL")]
+        //public string? SourceURL { get; set; }
 
         [JsonProperty("apps")]
         public List<RepoApp>? Apps { get; set; }

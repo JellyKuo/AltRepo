@@ -36,7 +36,7 @@ namespace AltRepo.Services
             {
                 Name = configuration["AltRepo:Name"],
                 Identifier = configuration["AltRepo:Identifier"],
-                SourceURL = configuration["AltRepo:SourceURL"],
+                //SourceURL = configuration["AltRepo:SourceURL"],
                 Apps = new List<RepoApp>(),
                 News = new List<RepoNews>(),
                 UserInfo = new()
